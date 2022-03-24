@@ -11,7 +11,7 @@ import uuid
 import os
 
 from .threads import ObigramThread
-from pyobigram.utils import get_url_file_name,req_file_size
+from utils import get_url_file_name,req_file_size
 
 class Downloader(object):
     def __init__(self,filename='',dest=''):
